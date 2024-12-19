@@ -581,7 +581,6 @@ img {
 
 .form-input {
   position: absolute;
-  
 }
 
 .form-button {
@@ -609,4 +608,76 @@ img {
 .privacy {
   color: #198c36;
   cursor: pointer;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.footer-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2efe6;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.icon-footer-logo {
+  fill: #133a23;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: #163a24;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-soc {
+  fill: #198c36;
+}
+
+.footer-bottom {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #163a24;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-bottom-link {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: #198c36;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-bottom-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 14px;
 }
